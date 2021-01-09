@@ -15,7 +15,10 @@ export default () => {
           mkfile('LICENSE'),
         ]),
       ]),
-    ], { owner: 'root', hidden: false }),
+    ], {
+      owner: 'root',
+      hidden: false,
+    }),
   ], { hidden: true });
   return tree;
 };
